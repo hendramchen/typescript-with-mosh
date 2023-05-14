@@ -34,6 +34,7 @@ interface Result<T> {
 }
 // fetch<Template>(params: string): ReturnType<Template>
 function fetch<T>(url: string): Result<T> {
+  console.log(url);
   return { data: null, error: null };
 }
 

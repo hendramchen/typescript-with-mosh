@@ -27,9 +27,9 @@ class Account {
     this._balance += amount;
   }
 
-  private calculateTax() {
-    //
-  }
+  // private calculateTax() {
+  //   //
+  // }
 
   // how to make setter and getter in typescript
   get balance(): number {
